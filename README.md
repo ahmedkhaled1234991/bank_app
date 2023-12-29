@@ -1,16 +1,24 @@
 # bank_app
 
-A new Flutter project.
+This is simple app contains home screen and investment screen created by flutter.
 
-## Getting Started
+## Description
 
-This project is a starting point for a Flutter application.
+- Home screen swipe horizontal between four tabs
+- Investment screen contains investment amount section that can increase and decrease the amount with change values (capitalAtMaturity - totalInterest - annualInterest - averageMaturityDateYear)
+- App includes all necessary assets, fonts, and dependencies within the project.
 
-A few resources to get you started if this is your first Flutter project:
+## Packages and Libraries
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- flutter_svg
+- flutter_screenutil
+- flutter_bloc
+- intl
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## How to run the app
+
+- clone this repository
+- run command flutter pub get in the terminal
+- flutter run
+
+
